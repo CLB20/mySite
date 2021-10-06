@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1{
+  font-size: 5.6rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Birthstone', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 20px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  width:8%;
+  margin: 8% auto;
+}
+.top-container {
+  background-color: #E4F6F6;
+  position: relative;
+  padding-top: 150px;
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:60px;
+}
+.bottom-cloud{
+  position:absolute;
+  left:22%;
+  bottom:300px;
+}
+.middle-container {
+margin: 100px 0;
+}
+.profile{
+  width:50%;
+  margin:100px auto 80px auto;
+}
+.profile-pic{
+  border-radius: 100%;
+  width:30%;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+.crafts-img{
+  width: 22%;
+  float: right;
+  margin-left: 30px;
+}
+.code-img{
+  width: 22%;
+  float: left;
+  margin-right: 30px;
+}
+.contact-me{
+  width: 50%;
+  margin:100px auto 100px auto;
+}
+.btn {
+   border-radius: 15px;
+   color: #FFFFFF;
+   font-size: 1.2rem;
+   padding: 10px 15px;
+   background-color: #66BFBF;
+   cursor: pointer;
+   display: inline-block;
+   margin-top: 25px;
+}
+.btn:hover {
+   background: #2CB2B2;
+   border-radius: 18px;
+   padding: 12px 17px;
+}
+.bottom-container {
+background-color: #66BFBF;
+padding: 40px 0 15px;
+}
+.copyright{
+  color: #EAF6F6;
+  padding: 10px;
+  font-size: 0.8rem;
+}
